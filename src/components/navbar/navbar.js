@@ -1,24 +1,35 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import Image from 'react-bootstrap/Image';
+import "./nav.css"
 function NavigationBar() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="/">My Property Co.</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/Search">Property Search</Nav.Link>
-            <Nav.Link href="/tools">Tools</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div className='container'>
+    <Navbar id="Navbar" sticky='top' collapseOnSelect expand="lg" bg="darker" variant="darker">
+    <Container maxWidth>
+      <Navbar.Brand href="/">
+        <div className='navbrand'>
+        <span className='icon-brand'></span>    
+        </div>
+        <Image src="../assets/logo.svg" id='icon-brand'></Image>
+      
+      </Navbar.Brand>
+
+    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
+    <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mx-auto flex-lg-shrink-1 text-white">
+            <Nav.Link id="nav-link" href="/">Home </Nav.Link>
+            <Nav.Link id="nav-link" href="/clients">Property Search</Nav.Link>
+            <Nav.Link id="nav-link" href="/showcase">Tools</Nav.Link>
+            <Nav.Link id="nav-link"  href='/talent'>About</Nav.Link> 
+            <Nav.Link id="nav-link" href="/blog">Contact</Nav.Link>
+        </Nav>
+    </Navbar.Collapse>
+    </Container>
+  </Navbar>
+  </div>
   );
 }
 

@@ -1,7 +1,25 @@
 .Container {
-  text-align: center;
+  display: flex;
+  
 }
 
+
+Nav {
+  color:white;
+  font-weight: 800;
+  float: right;
+}
+
+
+#nav-link{
+  display: flex;
+color: white;
+text-transform: uppercase;
+position: relative;
+align-items: center;
+}
+
+/* Vector 1 (Stroke) */
 
 
 
@@ -16,7 +34,7 @@
   color: white;
 }
 
-.App-link {
+#icon-brand {
   color: #61dafb;
 }
 

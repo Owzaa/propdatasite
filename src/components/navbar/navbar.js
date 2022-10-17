@@ -7,7 +7,7 @@ function NavigationBar() {
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="/">My Property Co.</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>

@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-created by: Olwethu The Nyondo
+created by: Olwethu Theo Nyondo
 
 ## Install this package
 npm install react-bootstrap bootstrap

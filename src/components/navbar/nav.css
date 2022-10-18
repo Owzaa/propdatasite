@@ -4,8 +4,9 @@
 #Navbar{
 display: flex;
 flex-direction: row;
-justify-content: space-between;
-align-items: center;
+justify-content: space-evenly;
+justify-content: right;
+align-items: left;
 padding: 50px 50px;
 gap: 656px;
 position: absolute;
@@ -18,3 +19,38 @@ top: 0px;
 background: #19263A;
 
 }
+
+/* HOME */
+
+Nav{
+width: 45px;
+height: 21px;
+justify-content: left;
+/* Navigation */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 20px;
+}
+#toggle{
+    background-color: white;
+}
+
+
+#nav-link{
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  justify-items: right;
+  float: right;
+  
+}
+
+
+  .nav{
+    background: #19263A;
+    justify-items: auto;
+  }
+  

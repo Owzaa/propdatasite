@@ -1,11 +1,15 @@
 import Carousel from 'react-bootstrap/Carousel';
+import "./slide.css"
+
+
 
 function Slide() {
   return (
-    <Carousel width="100%" className="navbar-container" fade={.8}>
+    <div className='Container'>
+    <Carousel  className="carousel-container" fade={.8}>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 responsive-image"
           src="../Assets/headerimage1.png"
           alt="First slide"
         />
@@ -28,6 +32,7 @@ function Slide() {
       </Carousel.Item>
   
     </Carousel>
+    </div>
   );
 }
 

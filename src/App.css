@@ -1,48 +1,8 @@
 .Container {
-  display: flex;
+  display:flex;
+  width: 100%;
   
 }
 
 
-Nav {
-  color:white;
-  font-weight: 800;
-  float: right;
-}
 
-
-#nav-link{
-  display: flex;
-color: white;
-text-transform: uppercase;
-position: relative;
-align-items: center;
-}
-
-/* Vector 1 (Stroke) */
-
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-#icon-brand {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

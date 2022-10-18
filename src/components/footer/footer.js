@@ -1,35 +1,102 @@
 import React from "react";
-import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon  from "@mui/icons-material/LinkedIn";
+import Image from 'react-bootstrap/Image';
+import Nav from 'react-bootstrap/Nav';
+
 import "./footer.css";
 
- const Font = {size: 18}; 
+ const Font = {size: 12}; 
 
- React.createElement("h3", { style: Font });
+ React.createElement("p", { style: Font });
 const Footer = () => (
 
 
 
-<div className="footer text-center p-5 bg-dark">
+<div className="flex footer mt-5 p-5">
+
+{/* Association Logo */}
+<div className="flex assoc pt-0">
+<Image className="logoAss mt-2 m-1 pt-3" src="../assets/Associations/EAAB/Light.png"
+id='icon-brand-footer'>
+</Image> 
+<Image className="logoAss mt-2 m-1 pt-3" src="../assets/Associations/IEASA/Light.png"
+id='icon-brand-footer'>
+</Image> 
 
 
-<div className="footer">
-<p className="text-center text-secondary" >© {new Date().getFullYear()} Copyright  | Triple Double Media (Pty) Ltd | - All Rights Reserved.</p>
+{/* Footer Nav.Link ks */}
+
+<div className="container-fluid pt-5 m-0 footerLinks">
+    <Nav className="navLink">
+        <Nav.Link href="/home" className="nav-link footerLink">Browse: Home |</Nav.Link>
+        <Nav.Link href="/home" className="nav-link footerLink">Residential For Sale <span>[5] </span> |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Calculators |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Company Profile |</Nav.Link> 
+        <Nav.Link href="/home" className="footerLink">Agent Search |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Contact Us |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Website Map |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Links |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Privacy Policy</Nav.Link> 
+    </Nav>
+</div>
+<br/>
+<br/>
+<hr/>
+
+
+<div className="flex advert-con">
+        <Nav.Link href="/home" className="footerLink">Residential For Sale <span>[54] </span>|</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Amazimtoti <span>[12] </span> |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Athlone Park <span>[3] </span>|</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Doonside <span>[6] </span> |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Warner Beach <span>[11] </span> |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">St. Winifreds <span>[4] </span> |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Residential To Let<span>[54] </span> |</Nav.Link>  
+        <Nav.Link href="/home" className="footerLink">Amazimtoti <span>[12] </span> |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Doonside <span>[6] </span> |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">Warner Beach <span>[11] </span> |</Nav.Link>
+        <Nav.Link href="/home" className="footerLink">St. Winifreds <span>[4] </span> |</Nav.Link>
 </div>
 
-<div className="container-flex text-center pt-5 pb-5 " id="SocialIcons"> 
-<a className="text-white" href="https://www.facebook.com/tripledoublemedia"><FacebookRoundedIcon fontSize="large"/></a>
-<a className="text-white" href="https://www.instagram.com/tripled_media"><InstagramIcon fontSize="large"/> </a>
-<a className="text-white" href="https://www.twitter.com/Tripled_media"><TwitterIcon fontSize="large"/> </a>
-<a className="text-white" href="https://www.linkedin.com/company/triple-double-media/"><LinkedInIcon fontSize="large"/></a>
+
+<div className="flex propPolicy">
+<Image className="logo b-2 pt-5" src="../assets/footer-icon.svg" id='icon-brand-footer'>
+</Image></div>
+<div className="Textpolicy">
+<p className="text-white mb-0 pt-0 m-5 mt-0 t-0">Website Powered by Prop Data</p>  
+<p className="text-white  pt-0 m-5 mt-0 t-0">Copyright ©  {new Date().getFullYear()} Name</p>
+</div> 
+
+
+{/* Footer Social Media */}
+
+<div className="flex social-icon mt-0 pt-0">
+<Image className="m-1 pt-0" src="../assets/Facebook.svg">
+</Image>
+<Image className="m-1 pt-0" src="../assets/Twitter.svg" >
+</Image>
+<Image className="m-1 pt-0" src="../assets/YouTube.svg">
+</Image>
 
 </div>
-<div className="e-mail">
-    <p className="text-white-50">info@tripledoublemedia.co.za </p>
+
+
 </div>
+
+
+{/* Footer Advert Nav.Link ks */}
+
+
+
+
+
+
+
+
+
 </div>
+
+
+
 );
 
 export default Footer;

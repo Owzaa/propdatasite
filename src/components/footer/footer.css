@@ -1,0 +1,60 @@
+.footer{
+    background: #19263A;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+#icon-brand-footer{
+    bottom: 0px;
+    margin-top: 25px;
+    display: inline-block;
+}
+.content{
+    display:inline-flex;
+    position: relative;
+}
+.logo{
+    position: relative;
+    width:26px;
+    height:auto;
+}
+
+
+/* Footer Links */
+.navLink,.footerLink{
+display:inline;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 5px;
+color: #FFFFFF;
+margin: 0px;
+order: 1;
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+.footerLink>a{
+    justify-content: center;
+    margin: .5px;
+    align-items: center;
+}
+.social-icon{
+    position:  relative;
+    display: inline;
+    display:block;
+  margin: auto;
+  float: right;
+  margin-bottom: auto;
+}
+.propPolicy{
+    position: relative;
+    display: inline;
+    margin-bottom: 5px;
+}
+hr{
+    color: #FFFFFF;
+    top: 35px;
+}

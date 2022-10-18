@@ -20,7 +20,7 @@ function NavigationBar() {
     <Navbar.Toggle aria-controls="responsive-navbar-nav text-white" id="toggle" />
 
     <Navbar.Collapse className='nav' id="responsive-navbar-nav ">
-        <Nav className="mx-auto flex-lg-shrink-1 text-white">
+        <Nav className="mx-auto flex-lg-shrink-1">
             <Nav.Link id="nav-link" href="/">Home </Nav.Link>
             <Nav.Link id="nav-link" href="/property-search">Property-Search</Nav.Link>
             <Nav.Link id="nav-link" href="/tools">Tools</Nav.Link>

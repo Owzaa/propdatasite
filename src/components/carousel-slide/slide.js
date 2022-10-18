@@ -5,7 +5,7 @@ import "./slide.css"
 
 function Slide() {
   return (
-    <div className='Container'>
+    <div className='Container responsive-image'>
     <Carousel  className="carousel-container" fade={.8}>
       <Carousel.Item>
         <img

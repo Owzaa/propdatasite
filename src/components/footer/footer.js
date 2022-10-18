@@ -58,12 +58,10 @@ id='icon-brand-footer'>
 </div>
 
 
-<div className="flex propPolicy">
-<Image className="logo b-2 pt-5" src="../assets/footer-icon.svg" id='icon-brand-footer'>
-</Image></div>
-<div className="Textpolicy">
-<p className="text-white mb-0 pt-0 m-5 mt-0 t-0">Website Powered by Prop Data</p>  
-<p className="text-white  pt-0 m-5 mt-0 t-0">Copyright ©  {new Date().getFullYear()} Name</p>
+<div className="Textpolicy pt-0 mt-0 mb-0 m-0">
+<Image className="logo mb-0 pt-5" src="../assets/footer-icon.svg" id='icon-brand-footer'>
+</Image><p className="text-white mb-0 pt-0 m-5 mt-0 t-0">Website Powered by Prop Data</p>  
+<p className="text-white  pt-0 m-5 mt-0 t-0">Copyright ©  {new Date().getFullYear()} </p>
 </div> 
 
 

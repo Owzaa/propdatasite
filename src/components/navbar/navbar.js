@@ -21,10 +21,10 @@ function NavigationBar() {
     <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mx-auto flex-lg-shrink-1 text-white">
             <Nav.Link id="nav-link" href="/">Home </Nav.Link>
-            <Nav.Link id="nav-link" href="/clients">Property Search</Nav.Link>
-            <Nav.Link id="nav-link" href="/showcase">Tools</Nav.Link>
-            <Nav.Link id="nav-link"  href='/talent'>About</Nav.Link> 
-            <Nav.Link id="nav-link" href="/blog">Contact</Nav.Link>
+            <Nav.Link id="nav-link" href="/property-search">Property Search</Nav.Link>
+            <Nav.Link id="nav-link" href="/tools">Tools</Nav.Link>
+            <Nav.Link id="nav-link"  href='/about'>About</Nav.Link> 
+            <Nav.Link id="nav-link" href="/contact">Contact</Nav.Link>
         </Nav>
     </Navbar.Collapse>
     </Container>

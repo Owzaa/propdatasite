@@ -7,7 +7,7 @@ function NavigationBar() {
   return (
     <div className='flex'>
     <Navbar id="Navbar" sticky='top' collapseOnSelect expand="lg" bg="darker" variant="darker">
-    <Container maxWidth>
+    <Container fluid>
       <Navbar.Brand href="/">
         <div className='navbrand'>
         <div className='icon-brand'> 
@@ -17,10 +17,10 @@ function NavigationBar() {
       
       </Navbar.Brand>
 
-    <Navbar.Toggle aria-controls="responsive-navbar-nav text-white" id="toggle" />
+    <Navbar.Toggle className="nav" aria-controls="responsive-navbar-nav text-white" id="toggle" />
 
-    <Navbar.Collapse className='nav' id="responsive-navbar-nav ">
-        <Nav className="mx-auto flex-lg-shrink-1">
+    <Navbar.Collapse id="responsive-navbar-nav ">
+        <Nav className="nav mx-auto ">
             <Nav.Link id="nav-link" href="/">Home </Nav.Link>
             <Nav.Link id="nav-link" href="/property-search">Property-Search</Nav.Link>
             <Nav.Link id="nav-link" href="/tools">Tools</Nav.Link>
